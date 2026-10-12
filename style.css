@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #211719;
+    --card-color: #672F38;
+    --accent-color: #C69A6B;
+    --text-color: #F2E7D5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', serif;;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    overflow-x: hidden;
+   
+}
+
