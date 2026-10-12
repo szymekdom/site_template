@@ -42,6 +42,7 @@ header .logo{
     color: var(--accent-color); 
 }
 
+
 .navbar {
     display: flex;
     align-items: center;
@@ -64,7 +65,7 @@ header .logo{
     color: var(--accent-color);
 }
 
-/* Przycisk hamburgera */
+
 .hamburger {
     display: none;
     background: none;
@@ -74,7 +75,7 @@ header .logo{
     cursor: pointer;
 }
 
-/* Telefon */
+
 @media (max-width: 768px) {
     header {
         padding: 15px 20px;
@@ -114,3 +115,4 @@ header .logo{
     .nav-links.active {
         display: flex;
     }
+}
