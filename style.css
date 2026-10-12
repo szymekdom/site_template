@@ -22,11 +22,7 @@ body{
     overflow-x: hidden;
    
 
-    background-image: url('images/barbershop.jpg');
-    background-repeat: no-repeat;  
-    background-position: center;   
-    background-size: cover;        
-    background-attachment: fixed;  
+   
 }
 
 header {
@@ -93,7 +89,11 @@ header .logo{
 
     background-color: rgba(0, 0, 0, 0.45);
 
-    
+    background-image: url('images/barbershop.jpg');
+    background-repeat: no-repeat;  
+    background-position: center;   
+    background-size: cover;        
+    background-attachment: fixed;  
     
 }
 
