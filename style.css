@@ -257,6 +257,33 @@ header .logo{
 }
 
 
+.js-scrroll-animate{
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.js-animate-right
+{
+    transform: translateX(50px);
+}
+
+.js-animate-left{
+    transform: translateX(-50px);
+}
+
+.js-animate-active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     header {
